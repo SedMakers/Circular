@@ -191,3 +191,20 @@ a:hover {
     height: 100vh;
     padding: 8px;
 }
+
+.slideshow-container{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides{
+    display: none;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.mySlides img{
+    width: 100%;
+}
