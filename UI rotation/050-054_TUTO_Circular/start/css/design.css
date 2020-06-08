@@ -208,3 +208,18 @@ a:hover {
 .mySlides img{
     width: 100%;
 }
+
+.hide{
+    display: none;
+}
+
+.fade{
+    display: block;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-out;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    transform-origin: 50% 150%;
+    animation-timing-function: ease-out;
+}
