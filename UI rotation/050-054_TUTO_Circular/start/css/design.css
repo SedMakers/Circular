@@ -223,3 +223,14 @@ a:hover {
     transform-origin: 50% 150%;
     animation-timing-function: ease-out;
 }
+
+.fadeOut {
+    display: block;
+    -webkit-animation-name: fadeOut;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: ease-out;
+    animation-name: fadeOut;
+    animation-duration: 0.3s;
+    transform-origin: 50% 150%;
+    animation-timing-function: ease-out;
+}
