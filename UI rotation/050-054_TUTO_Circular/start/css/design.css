@@ -176,3 +176,18 @@ a:hover {
     transition: all 0.5s ease-out;
     transform-origin: 50% 50%;
 }
+
+#bg{
+    transition: background-color 1s ease-in-out;
+
+}
+
+.page{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 8px;
+}
