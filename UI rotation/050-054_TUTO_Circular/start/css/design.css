@@ -234,3 +234,21 @@ a:hover {
     transform-origin: 50% 150%;
     animation-timing-function: ease-out;
 }
+
+.leftEdge {
+    position: absolute;
+    transform-origin: 0% 100%;
+    top: 25vh;
+    left: 25px;
+    font-size: 0.8em;
+    transform: rotateZ(90deg);
+}
+
+.rightEdge {
+    position: absolute;
+    top: 35vh;
+    right: 25px;
+    width: 20px;
+
+}
+
