@@ -263,3 +263,10 @@ a:hover {
     transition: background-color 0.6s ease;
 }
 
+.stage {
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+}
+
