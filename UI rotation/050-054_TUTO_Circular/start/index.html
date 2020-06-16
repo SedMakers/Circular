@@ -78,6 +78,16 @@
         getElementById("holder")
         let dir = 0
         const bg = document.getElementById("bg")
+
+        function plusSlides(n) {
+            lastSlide = slideIndex
+            showSlides(slideIndex += n)
+
+        }
+
+        function change(c) {
+            bg.style.backgroundColor = c
+        }
     </script>
 
 </body>
