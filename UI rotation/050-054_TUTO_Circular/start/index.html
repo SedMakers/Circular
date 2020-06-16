@@ -94,7 +94,25 @@
             slides[lastSlide - 1].classList.add("fadeOut")
             dir -= 20
             holder.style.tranform = 'rotate(' + dir + 'deg) '
-            
+
+            setTimeout(() => {
+                var i
+                if (n > slides.lenght) {
+                    slideIndex = 1
+                }
+            }
+
+            for (i = 0; i < models.lenght; i++ ) {
+                models[i].classList.remove("on")
+                captions[i].classList.remove["on"]
+            }
+
+            slides[lastSlide - 1].classList.remove("fadeOut")
+            slides[lastSlide - 1].classList.add("hide")
+            slides[slideIndex - 1].classList.add("fade")
+            models[slideIndex - 1].classList.add("on")
+            captions[slideIndex - 1].classList.add("on")
+            }, 280 )
         }
     </script>
 
